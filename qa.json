@@ -1,0 +1,12 @@
+{
+  "url": "https://simplifier.net/guide/no-basis-entities-individuals/ImplementationGuide/no-basis-Profiles",
+  "name": "nobasisProfiles",
+  "package-id": "no-basis-Profiles",
+  "ig-ver": "0.1.0",
+  "date": "Wed, 18 Aug, 2021 00:20:08 +0200",
+  "errs": 3,
+  "warnings": 126,
+  "hints": 10,
+  "version": "4.0.1",
+  "tool": "4.6.0 (3)"
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="GOFSH-GENERATED-ID-0"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: registered</p><p><b>code</b>: <span title="Codes: {http://loinc.org 29463-7}, {http://loinc.org 3141-9}, {http://snomed.info/sct 27113001}, {http://acme.org/devices/clinical-codes body-weight}">Body Weight</span></p><p><b>subject</b>: <a href="Patient/592410">Patient/592410</a></p><p><b>effective</b>: 2020-01-22</p><p><b>value</b>: 99000 gram</p></div>
+  </text>
+  <status value="registered"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="29463-7"/>
+      <display value="Body Weight"/>
+    </coding>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="3141-9"/>
+      <display value="Body weight Measured"/>
+    </coding>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="27113001"/>
+      <display value="Body weight"/>
+    </coding>
+    <coding>
+      <system value="http://acme.org/devices/clinical-codes"/>
+      <code value="body-weight"/>
+      <display value="Body Weight"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/592410"/>
+  </subject>
+  <effectiveDateTime value="2020-01-22"/>
+  <valueQuantity>
+    <value value="99000"/>
+    <unit value="gram"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="g"/>
+  </valueQuantity>
+</Observation>

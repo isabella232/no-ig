@@ -1,0 +1,164 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://simplifier.net/guide/no-basis-entities-individuals/ConceptMap/3401-use-mapping> a fhir:ConceptMap;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "3401-use-mapping"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>MappingUse3401 (http://ehelse.no/fhir/ConceptMap/3401-mapping)</h2><p>Mapping from <a href=\"http://hl7.org/fhir/R4/codesystem-address-use.html\">http://hl7.org/fhir/address-use</a> to urn:oid:2.16.578.1.12.4.1.1.3401</p><p>DRAFT (not intended for production usage). Published on 2021-05-31 by HL7 Norway (HL7 Norway: <a href=\"http://www.hl7.org/\">http://www.hl7.org/</a>, <a href=\"mailto:usrsc@lists.HL7.org\">usrsc@lists.HL7.org</a>). </p><div><p>An example mapping</p>\n</div><br/><table class=\"grid\"><tr><td colspan=\"4\"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan=\"2\"><b>Destination Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Code</b> from <a href=\"http://hl7.org/fhir/R4/codesystem-address-use.html\" title=\"http://hl7.org/fhir/address-use\">AddressUse</a></td><td><b>Code</b> from </td><td><b>Code</b> from </td><td/><td colspan=\"2\"><b>Code</b> from urn:oid:2.16.578.1.12.4.1.1.3401</td><td/></tr><tr><td style=\"border-right-width: 0px\">home</td><td style=\"border-left-width: 0px\">Home</td><td>false</td><td/><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#narrower\">narrower</a></td><td style=\"border-right-width: 0px\">H</td><td style=\"border-left-width: 0px\"></td><td>Både Bosted og folkeregisteradresse mapper til home</td></tr><tr><td style=\"border-right-width: 0px\">home</td><td style=\"border-left-width: 0px\">Home</td><td>true</td><td/><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#narrower\">narrower</a></td><td style=\"border-right-width: 0px\">HP</td><td style=\"border-left-width: 0px\"></td><td>Både Bosted og folkeregisteradresse mapper til home</td></tr><tr><td style=\"border-right-width: 0px\">work</td><td style=\"border-left-width: 0px\">Work</td><td/><td/><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">WP</td><td style=\"border-left-width: 0px\"></td><td/></tr><tr><td style=\"border-right-width: 0px\">temp</td><td style=\"border-left-width: 0px\">Temporary</td><td/><td/><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#narrower\">narrower</a></td><td style=\"border-right-width: 0px\">HV</td><td style=\"border-left-width: 0px\"></td><td>Både ferieadresse og midlertidig adresse mapper til temp</td></tr><tr><td style=\"border-right-width: 0px\">temp</td><td style=\"border-left-width: 0px\">Temporary</td><td/><td/><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#narrower\">narrower</a></td><td style=\"border-right-width: 0px\">TMP</td><td style=\"border-left-width: 0px\"></td><td>Både ferieadresse og midlertidig adresse mapper til temp</td></tr><tr><td style=\"border-right-width: 0px\">old</td><td style=\"border-left-width: 0px\">Old / Incorrect</td><td/><td/><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#inexact\">maps loosely to</a></td><td style=\"border-right-width: 0px\">BAD</td><td style=\"border-left-width: 0px\"></td><td>Gammel er relatert til ubrukelig men ikke lik</td></tr><tr><td style=\"border-right-width: 0px\">home</td><td style=\"border-left-width: 0px\">Home</td><td/><td>billing</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">INV</td><td style=\"border-left-width: 0px\"></td><td/></tr><tr><td style=\"border-right-width: 0px\">home</td><td style=\"border-left-width: 0px\">Home</td><td/><td>postal</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">PST</td><td style=\"border-left-width: 0px\"></td><td/></tr><tr><td style=\"border-right-width: 0px\">home</td><td style=\"border-left-width: 0px\">Home</td><td/><td>physical</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">RES</td><td style=\"border-left-width: 0px\"></td><td/></tr></table></div>"
+  ];
+  fhir:ConceptMap.url [ fhir:value "http://ehelse.no/fhir/ConceptMap/3401-mapping"];
+  fhir:ConceptMap.version [ fhir:value "0.1.0"];
+  fhir:ConceptMap.name [ fhir:value "MappingUse3401"];
+  fhir:ConceptMap.title [ fhir:value "Mapping 3401 to Address use"];
+  fhir:ConceptMap.status [ fhir:value "draft"];
+  fhir:ConceptMap.experimental [ fhir:value "true"^^xsd:boolean];
+  fhir:ConceptMap.date [ fhir:value "2021-05-31"^^xsd:date];
+  fhir:ConceptMap.publisher [ fhir:value "HL7 Norway"];
+  fhir:ConceptMap.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "HL7 Norway" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.org/" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "usrsc@lists.HL7.org" ]
+     ]
+  ];
+  fhir:ConceptMap.description [ fhir:value "An example mapping"];
+  fhir:ConceptMap.purpose [ fhir:value "To illustrate mapping features"];
+  fhir:ConceptMap.sourceUri [ fhir:value "http://hl7.org/fhir/address-use"];
+  fhir:ConceptMap.targetUri [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.3401"];
+  fhir:ConceptMap.group [
+     fhir:index 0;
+     fhir:ConceptMap.group.source [ fhir:value "http://hl7.org/fhir/address-use" ];
+     fhir:ConceptMap.group.target [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.3401" ];
+     fhir:ConceptMap.group.element [
+       fhir:index 0;
+       fhir:ConceptMap.group.element.code [ fhir:value "home" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "H" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Bostedsadresse" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "narrower" ];
+         fhir:ConceptMap.group.element.target.comment [ fhir:value "Både Bosted og folkeregisteradresse mapper til home" ];
+         fhir:ConceptMap.group.element.target.dependsOn [
+           fhir:index 0;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Address.official" ];
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "false" ]
+         ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:ConceptMap.group.element.code [ fhir:value "home" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "HP" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Folkeregisteradresse" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "narrower" ];
+         fhir:ConceptMap.group.element.target.comment [ fhir:value "Både Bosted og folkeregisteradresse mapper til home" ];
+         fhir:ConceptMap.group.element.target.dependsOn [
+           fhir:index 0;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Address.official" ];
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "true" ]
+         ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:ConceptMap.group.element.code [ fhir:value "work" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "WP" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Arbeidsadresse" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:ConceptMap.group.element.code [ fhir:value "temp" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "HV" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Ferieadresse" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "narrower" ];
+         fhir:ConceptMap.group.element.target.comment [ fhir:value "Både ferieadresse og midlertidig adresse mapper til temp" ]
+       ]
+     ], [
+       fhir:index 4;
+       fhir:ConceptMap.group.element.code [ fhir:value "temp" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "TMP" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Midlertidig adresse" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "narrower" ];
+         fhir:ConceptMap.group.element.target.comment [ fhir:value "Både ferieadresse og midlertidig adresse mapper til temp" ]
+       ]
+     ], [
+       fhir:index 5;
+       fhir:ConceptMap.group.element.code [ fhir:value "old" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "BAD" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Ubrukelig adresse" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "inexact" ];
+         fhir:ConceptMap.group.element.target.comment [ fhir:value "Gammel er relatert til ubrukelig men ikke lik" ]
+       ]
+     ], [
+       fhir:index 6;
+       fhir:ConceptMap.group.element.code [ fhir:value "home" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "INV" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Faktureringsadresse" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ];
+         fhir:ConceptMap.group.element.target.dependsOn [
+           fhir:index 0;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Address.type" ];
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "billing" ]
+         ]
+       ]
+     ], [
+       fhir:index 7;
+       fhir:ConceptMap.group.element.code [ fhir:value "home" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "PST" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Postadresse" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ];
+         fhir:ConceptMap.group.element.target.dependsOn [
+           fhir:index 0;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Address.type" ];
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "postal" ]
+         ]
+       ]
+     ], [
+       fhir:index 8;
+       fhir:ConceptMap.group.element.code [ fhir:value "home" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "RES" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Besøksadresse" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ];
+         fhir:ConceptMap.group.element.target.dependsOn [
+           fhir:index 0;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Address.type" ];
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "physical" ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://simplifier.net/guide/no-basis-entities-individuals/ConceptMap/3401-use-mapping.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

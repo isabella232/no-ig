@@ -1,0 +1,43 @@
+{
+  "resourceType": "Observation",
+  "id": "GOFSH-GENERATED-ID-0",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: registered</p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 29463-7}, {http://loinc.org 3141-9}, {http://snomed.info/sct 27113001}, {http://acme.org/devices/clinical-codes body-weight}\">Body Weight</span></p><p><b>subject</b>: <a href=\"Patient/592410\">Patient/592410</a></p><p><b>effective</b>: 2020-01-22</p><p><b>value</b>: 99000 gram</p></div>"
+  },
+  "status": "registered",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "29463-7",
+        "display": "Body Weight"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "3141-9",
+        "display": "Body weight Measured"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "27113001",
+        "display": "Body weight"
+      },
+      {
+        "system": "http://acme.org/devices/clinical-codes",
+        "code": "body-weight",
+        "display": "Body Weight"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/592410"
+  },
+  "effectiveDateTime": "2020-01-22",
+  "valueQuantity": {
+    "value": 99000,
+    "unit": "gram",
+    "system": "http://unitsofmeasure.org",
+    "code": "g"
+  }
+}

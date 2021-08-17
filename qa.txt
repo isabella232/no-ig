@@ -1,0 +1,320 @@
+﻿nobasisProfiles : Validation Results
+=========================================
+
+err = 3, warn = 126, info = 10
+IG Publisher Version: 1.1.77
+Generated Wed Aug 18 00:20:56 CEST 2021. FHIR version 4.0.1 for no-basis-Profiles#0.1.0 (canonical = https://simplifier.net/guide/no-basis-entities-individuals)
+
+ Build Errors : 60 / 12 / 0
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/ImplementationGuide-no-basis-Profiles : 0 / 1 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/codesystem-no-basis-connection-type.codesystem : 0 / 0 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/codesystem-no-basis-family-relation.codesystem : 0 / 0 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/codesystem-no-basis-marital-status.codesystem : 0 / 0 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/codesystem-no-basis-parental-responsibility.codesystem : 0 / 0 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/conceptmap-3401-use-mapping : 0 / 0 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/namingsystem-no-basis-bydelsnummer : 0 / 0 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/namingsystem-no-basis-dnummer : 0 / 0 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/namingsystem-no-basis-dufnummer : 0 / 0 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/namingsystem-no-basis-felleshjelpenummer : 0 / 0 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/namingsystem-no-basis-foedselsnummer : 0 / 0 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/namingsystem-no-basis-helsepersonellnummer : 0 / 0 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/namingsystem-no-basis-kommunenummer : 0 / 0 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/observation-GOFSH-GENERATED-ID-0 : 1 / 0 / 2
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/organization-GOFSH-GENERATED-ID-1 : 0 / 0 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/patient-GOFSH-GENERATED-ID-2 : 0 / 1 / 2
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/patient-GOFSH-GENERATED-ID-3 : 0 / 3 / 4
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/practitioner-GOFSH-GENERATED-ID-4 : 0 / 0 / 5
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/relatedperson-GOFSH-GENERATED-ID-5 : 0 / 1 / 2
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/relatedperson-GOFSH-GENERATED-ID-6 : 0 / 0 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/relatedperson-GOFSH-GENERATED-ID-7 : 0 / 0 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/searchparameter-no-basis-middlename : 0 / 0 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-kommunikasjonspart-Organization : 0 / 3 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-Address : 0 / 1 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-AllergyIntolerance : 0 / 1 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-Composition : 0 / 1 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-DocumentReference : 0 / 1 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-Endpoint : 0 / 9 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-HealthcareService : 0 / 3 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-HumanName : 0 / 1 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-Location : 0 / 1 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-Medication : 0 / 1 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-Organization : 0 / 4 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-Patient : 0 / 0 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-Person : 0 / 1 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-Practitioner : 0 / 0 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-PractitionerRole : 0 / 5 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-Procedure : 0 / 0 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-RelatedPerson : 0 / 0 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-Substance : 0 / 1 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-address-official : 0 / 0 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-middlename : 0 / 0 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-municipalitycode : 0 / 2 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-person-citizenship : 0 / 0 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-prescriptiongroup : 0 / 1 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-propertyinformation : 1 / 2 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-relatedperson-person-reference : 0 / 0 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-sourceofinformation : 0 / 1 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-urban-district : 0 / 3 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-tba-organizationcoverage : 0 / 1 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/valueset-no-basis-connection-type.valueset : 0 / 0 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/valueset-no-basis-documentreference-type : 0 / 64 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/valueset-no-basis-family-relation.valueset : 0 / 0 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/valueset-no-basis-marital-status.valueset : 0 / 0 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/valueset-no-basis-parental-responsibility.valueset : 0 / 0 / 1
+ /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/valueset-no-basis-service-type.valueset : 0 / 1 / 1
+</table>
+== n/a ==
+ERROR: ImplementationGuide.definition.parameter[22].value: Supressed messages file not found
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/no-basis-documentreference-type.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/no-basis-family-relation.codesystem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/no-basis-marital-status.codesystem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/no-basis-parental-responsibility.codesystem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/GOFSH-GENERATED-ID-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/GOFSH-GENERATED-ID-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/GOFSH-GENERATED-ID-2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/GOFSH-GENERATED-ID-3.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/GOFSH-GENERATED-ID-4.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource RelatedPerson/GOFSH-GENERATED-ID-5.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource RelatedPerson/GOFSH-GENERATED-ID-6.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource RelatedPerson/GOFSH-GENERATED-ID-7.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/Observation-GOFSH-GENERATED-ID-0.html#/html/body/div/div/div/div/div/div/p/a at Line 157, column 332: The link 'Patient/592410' for "Patient/592410" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-kommunikasjonspart-Organization-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 708, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-kommunikasjonspart-Organization-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 828, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-kommunikasjonspart-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 348, column 1908: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-kommunikasjonspart-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 360, column 1936: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-kommunikasjonspart-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 648, column 1908: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-kommunikasjonspart-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 660, column 1936: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 268, column 1790: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 302, column 1790: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 455, column 1790: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 489, column 1790: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-Endpoint-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 352, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for "urn:oid:2.16.578.1.12.4.1.1.8279" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-Endpoint-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 364, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for "urn:oid:2.16.578.1.12.4.1.1.0000" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 289, column 1056: The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for "urn:oid:2.16.578.1.12.4.1.1.8279" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 292, column 973: The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for "urn:oid:2.16.578.1.12.4.1.1.0000" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 345, column 1127: The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for "urn:oid:2.16.578.1.12.4.1.1.8279" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 348, column 1078: The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for "urn:oid:2.16.578.1.12.4.1.1.0000" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 510, column 1056: The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for "urn:oid:2.16.578.1.12.4.1.1.8279" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 513, column 973: The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for "urn:oid:2.16.578.1.12.4.1.1.0000" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 566, column 1127: The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for "urn:oid:2.16.578.1.12.4.1.1.8279" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 569, column 1078: The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for "urn:oid:2.16.578.1.12.4.1.1.0000" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 443, column 108: The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for "urn:oid:2.16.578.1.12.4.1.1.9040" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 282, column 1882: The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for "urn:oid:2.16.578.1.12.4.1.1.9040" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 336, column 1876: The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for "urn:oid:2.16.578.1.12.4.1.1.9040" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 567, column 1882: The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for "urn:oid:2.16.578.1.12.4.1.1.9040" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 621, column 1876: The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for "urn:oid:2.16.578.1.12.4.1.1.9040" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-Organization-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 521, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-Organization-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 641, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 295, column 1750: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 299, column 1778: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 354, column 1884: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 366, column 1912: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 575, column 1750: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 579, column 1778: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 634, column 1884: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 646, column 1912: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-PractitionerRole-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 331, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-PractitionerRole-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 462, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 284, column 975: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 291, column 1840: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 329, column 1054: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 344, column 1931: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 547, column 975: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 554, column 1840: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 592, column 1054: The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for "urn:oid:2.16.578.1.12.4.1.1.9034" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 607, column 1931: The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for "urn:oid:2.16.578.1.12.4.1.1.8451" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-propertyinformation-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 396, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 272, column 1989: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 310, column 1901: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 415, column 1989: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 453, column 1901: The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for "urn:oid:2.16.578.1.12.4.1.1.3402" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-urban-district-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 212, column 115: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 261, column 1787: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 274, column 1671: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 340, column 1787: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 353, column 1671: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/index.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 133, column 8: The link 'background.html' for "Background" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/index.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 137, column 8: The link 'spec.html' for "Detailed Specification" cannot be resolved
+ERROR: /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/output/index.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 140, column 8: The link 'downloads.html' for "Downloads" cannot be resolved
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/ImplementationGuide-no-basis-Profiles.json ==
+WARNING: ImplementationGuide/no-basis-Profiles: ImplementationGuide: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem.json ==
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/CodeSystem-no-basis-family-relation.codesystem.json ==
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/CodeSystem-no-basis-marital-status.codesystem.json ==
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/CodeSystem-no-basis-parental-responsibility.codesystem.json ==
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/ConceptMap-3401-use-mapping.json ==
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/NamingSystem-no-basis-bydelsnummer.json ==
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/NamingSystem-no-basis-dnummer.json ==
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/NamingSystem-no-basis-dufnummer.json ==
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/NamingSystem-no-basis-felleshjelpenummer.json ==
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/NamingSystem-no-basis-foedselsnummer.json ==
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/NamingSystem-no-basis-helsepersonellnummer.json ==
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/NamingSystem-no-basis-kommunenummer.json ==
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/Observation-GOFSH-GENERATED-ID-0.json ==
+INFORMATION: Observation/GOFSH-GENERATED-ID-0: Observation.code.coding[3]: Code System URI 'http://acme.org/devices/clinical-codes' is unknown so the code cannot be validated
+ERROR: Observation/GOFSH-GENERATED-ID-0: Observation.subject: Unable to resolve resource 'Patient/592410'
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/Organization-GOFSH-GENERATED-ID-1.json ==
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/Patient-GOFSH-GENERATED-ID-2.json ==
+INFORMATION: Patient/GOFSH-GENERATED-ID-2: Patient.address[0].extension[0].extension[0].value.ofType(Coding): Code System URI 'urn:oid:2.16.578.1.12.4.1.1.3402' is unknown so the code cannot be validated
+WARNING: Patient/GOFSH-GENERATED-ID-2: Patient.address[0].extension[0].extension[0].value.ofType(Coding): ValueSet urn:oid:2.16.578.1.12.4.1.1.3402 not found by validator
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/Patient-GOFSH-GENERATED-ID-3.json ==
+INFORMATION: Patient/GOFSH-GENERATED-ID-3: Patient.identifier[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Patient
+INFORMATION: Patient/GOFSH-GENERATED-ID-3: Patient.address[0].extension[0].extension[0].value.ofType(Coding): Code System URI 'urn:oid:2.16.578.1.12.4.1.1.3402' is unknown so the code cannot be validated
+WARNING: Patient/GOFSH-GENERATED-ID-3: Patient.address[0].extension[0].extension[0].value.ofType(Coding): ValueSet urn:oid:2.16.578.1.12.4.1.1.3402 not found by validator
+INFORMATION: Patient/GOFSH-GENERATED-ID-3: Patient.address[0].district.extension[0].value.ofType(Coding): Code System URI 'https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle' is unknown so the code cannot be validated
+WARNING: Patient/GOFSH-GENERATED-ID-3: Patient.address[0].district.extension[0].value.ofType(Coding): ValueSet https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle not found by validator
+WARNING: Patient/GOFSH-GENERATED-ID-3: Patient.contact[0].relationship[1]: No code provided, and a code should be provided from the value set http://hl7.org/fhir/ValueSet/patient-contactrelationship (http://hl7.org/fhir/ValueSet/patient-contactrelationship)
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/Practitioner-GOFSH-GENERATED-ID-4.json ==
+INFORMATION: Practitioner/GOFSH-GENERATED-ID-4: Practitioner.qualification[0].code.coding[0]: Code System URI 'urn:oid:2.16.578.1.12.4.1.1.9060' is unknown so the code cannot be validated
+INFORMATION: Practitioner/GOFSH-GENERATED-ID-4: Practitioner.qualification[1].code.coding[0]: Code System URI 'urn:oid:2.16.578.1.12.4.1.1.7426' is unknown so the code cannot be validated
+INFORMATION: Practitioner/GOFSH-GENERATED-ID-4: Practitioner.qualification[2].code.coding[0]: Code System URI 'urn:oid:2.16.578.1.12.4.1.1.7704' is unknown so the code cannot be validated
+INFORMATION: Practitioner/GOFSH-GENERATED-ID-4: Practitioner.qualification[3].code.coding[0]: Code System URI 'urn:oid:2.16.578.1.12.4.1.1.7426' is unknown so the code cannot be validated
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/RelatedPerson-GOFSH-GENERATED-ID-5.json ==
+INFORMATION: RelatedPerson/GOFSH-GENERATED-ID-5: RelatedPerson.address[0].extension[0].extension[2].value.ofType(Coding): Code System URI 'urn:oid:2.16.578.1.12.4.1.1.3402' is unknown so the code cannot be validated
+WARNING: RelatedPerson/GOFSH-GENERATED-ID-5: RelatedPerson.address[0].extension[0].extension[2].value.ofType(Coding): ValueSet urn:oid:2.16.578.1.12.4.1.1.3402 not found by validator
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/RelatedPerson-GOFSH-GENERATED-ID-6.json ==
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/RelatedPerson-GOFSH-GENERATED-ID-7.json ==
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/SearchParameter-no-basis-middlename.json ==
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-kommunikasjonspart-Organization.json ==
+WARNING: StructureDefinition/kommunikasjonspart-Organization: StructureDefinition.snapshot.element[48].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8628 on element Organization.type could not be resolved
+WARNING: StructureDefinition/kommunikasjonspart-Organization: StructureDefinition.snapshot.element[60].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8624 on element Organization.type could not be resolved
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/kommunikasjonspart-Organization'): The Implementation Guide contains no examples for this profile
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-Address.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Address'): The Implementation Guide contains no examples for this data type profile
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-AllergyIntolerance.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-AllergyIntolerance'): The Implementation Guide contains no examples for this profile
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-Composition.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Composition'): The Implementation Guide contains no examples for this profile
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-DocumentReference.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-DocumentReference'): The Implementation Guide contains no examples for this profile
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-Endpoint.json ==
+WARNING: no-basis-Endpoint.Endpoint.payloadMimeType: Binding http://www.rfc-editor.org/bcp/bcp13.txt could not be located
+WARNING: StructureDefinition/no-basis-Endpoint: StructureDefinition: Binding http://www.rfc-editor.org/bcp/bcp13.txt could not be located
+WARNING: StructureDefinition/no-basis-Endpoint: StructureDefinition.differential.element[5].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8279 on element Endpoint.payloadType could not be resolved
+WARNING: StructureDefinition/no-basis-Endpoint: StructureDefinition.differential.element[6].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.0000 on element Endpoint.payloadType could not be resolved
+WARNING: StructureDefinition/no-basis-Endpoint: StructureDefinition.differential.element[7].binding: The valueSet reference http://www.rfc-editor.org/bcp/bcp13.txt on element Endpoint.payloadMimeType could not be resolved
+WARNING: StructureDefinition/no-basis-Endpoint: StructureDefinition.snapshot.element[17].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8279 on element Endpoint.payloadType could not be resolved
+WARNING: StructureDefinition/no-basis-Endpoint: StructureDefinition.snapshot.element[18].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.0000 on element Endpoint.payloadType could not be resolved
+WARNING: StructureDefinition/no-basis-Endpoint: StructureDefinition.snapshot.element[19].binding: The valueSet reference http://www.rfc-editor.org/bcp/bcp13.txt on element Endpoint.payloadMimeType could not be resolved
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Endpoint'): The Implementation Guide contains no examples for this profile
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-HealthcareService.json ==
+WARNING: StructureDefinition/no-basis-HealthcareService: StructureDefinition.differential.element[5].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.9040 on element HealthcareService.category could not be resolved
+WARNING: StructureDefinition/no-basis-HealthcareService: StructureDefinition.snapshot.element[26].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.9040 on element HealthcareService.category could not be resolved
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService'): The Implementation Guide contains no examples for this profile
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-HumanName.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-HumanName'): The Implementation Guide contains no examples for this data type profile
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-Location.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Location'): The Implementation Guide contains no examples for this profile
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-Medication.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Medication'): The Implementation Guide contains no examples for this profile
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-Organization.json ==
+WARNING: StructureDefinition/no-basis-Organization: StructureDefinition.differential.element[9].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8628 on element Organization.type could not be resolved
+WARNING: StructureDefinition/no-basis-Organization: StructureDefinition.differential.element[12].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8624 on element Organization.type could not be resolved
+WARNING: StructureDefinition/no-basis-Organization: StructureDefinition.snapshot.element[30].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8628 on element Organization.type could not be resolved
+WARNING: StructureDefinition/no-basis-Organization: StructureDefinition.snapshot.element[42].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8624 on element Organization.type could not be resolved
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-Patient.json ==
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-Person.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Person'): The Implementation Guide contains no examples for this profile
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-Practitioner.json ==
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-PractitionerRole.json ==
+WARNING: StructureDefinition/no-basis-PractitionerRole: StructureDefinition.differential.element[4].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.9034 on element PractitionerRole.code could not be resolved
+WARNING: StructureDefinition/no-basis-PractitionerRole: StructureDefinition.differential.element[8].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8451 on element PractitionerRole.specialty could not be resolved
+WARNING: StructureDefinition/no-basis-PractitionerRole: StructureDefinition.snapshot.element[15].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.9034 on element PractitionerRole.code could not be resolved
+WARNING: StructureDefinition/no-basis-PractitionerRole: StructureDefinition.snapshot.element[28].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8451 on element PractitionerRole.specialty could not be resolved
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-PractitionerRole'): The Implementation Guide contains no examples for this profile
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-Procedure.json ==
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-RelatedPerson.json ==
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-Substance.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Substance'): The Implementation Guide contains no examples for this profile
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-address-official.json ==
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-middlename.json ==
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-municipalitycode.json ==
+WARNING: StructureDefinition/no-basis-municipalitycode: StructureDefinition.differential.element[3].binding: The valueSet reference https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle on element Extension.value[x] could not be resolved
+WARNING: StructureDefinition/no-basis-municipalitycode: StructureDefinition.snapshot.element[4].binding: The valueSet reference https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle on element Extension.value[x] could not be resolved
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-person-citizenship.json ==
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-prescriptiongroup.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-prescriptiongroup'): The Implementation Guide contains no examples for this extension
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-propertyinformation.json ==
+ERROR: StructureDefinition/no-basis-propertyinformation: StructureDefinition.differential.element[17].binding: ElementDefinition.binding.strength: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ElementDefinition)
+WARNING: StructureDefinition/no-basis-propertyinformation: StructureDefinition.differential.element[20].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.3402 on element Extension.extension.value[x] could not be resolved
+WARNING: StructureDefinition/no-basis-propertyinformation: StructureDefinition.snapshot.element[27].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.3402 on element Extension.extension.value[x] could not be resolved
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-relatedperson-person-reference.json ==
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-sourceofinformation.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-sourceofinformation'): The Implementation Guide contains no examples for this extension
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-urban-district.json ==
+WARNING: StructureDefinition/no-basis-urban-district: StructureDefinition.differential.element[3].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.3403 on element Extension.value[x] could not be resolved
+WARNING: StructureDefinition/no-basis-urban-district: StructureDefinition.snapshot.element[4].binding: The valueSet reference urn:oid:2.16.578.1.12.4.1.1.3403 on element Extension.value[x] could not be resolved
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-urban-district'): The Implementation Guide contains no examples for this extension
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-tba-organizationcoverage.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/tba-organizationcoverage'): The Implementation Guide contains no examples for this extension
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/ValueSet-no-basis-connection-type.valueset.json ==
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/ValueSet-no-basis-documentreference-type.json ==
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[0]: The code A00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[1]: The code A01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[2]: The code A02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[3]: The code A03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[4]: The code A04-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[5]: The code A05-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[6]: The code A06-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[7]: The code A07-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[8]: The code A08-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[9]: The code A09-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[10]: The code A10-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[11]: The code A11-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[12]: The code A12-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[13]: The code A13-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[14]: The code B00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[15]: The code B01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[16]: The code B02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[17]: The code B03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[18]: The code C00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[19]: The code C01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[20]: The code C02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[21]: The code C03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[22]: The code C04-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[23]: The code C05-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[24]: The code C06-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[25]: The code C07-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[26]: The code D00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[27]: The code D01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[28]: The code D02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[29]: The code D03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[30]: The code D04-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[31]: The code D05-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[32]: The code D06-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[33]: The code D07-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[34]: The code D08-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[35]: The code D09-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[36]: The code D10-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[37]: The code D11-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[38]: The code D12-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[39]: The code D13-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[40]: The code E00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[41]: The code E01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[42]: The code F00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[43]: The code F01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[44]: The code F02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[45]: The code F03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[46]: The code F04-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[47]: The code F05-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[48]: The code F06-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[49]: The code F07-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[50]: The code F08-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[51]: The code F09-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[52]: The code F10-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[53]: The code I00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[54]: The code I01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[55]: The code I02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[56]: The code J00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[57]: The code J01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[58]: The code J02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[59]: The code S00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[60]: The code S01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[61]: The code S02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type: ValueSet.compose[0].include[0].concept[62]: The code S03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet.where(id = 'no-basis-documentreference-type'): Error from server: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.9602
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/ValueSet-no-basis-family-relation.valueset.json ==
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/ValueSet-no-basis-marital-status.valueset.json ==
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/ValueSet-no-basis-parental-responsibility.valueset.json ==
+== /Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/ValueSet-no-basis-service-type.valueset.json ==
+WARNING: ValueSet.where(id = 'no-basis-service-type.valueset'): Error from server: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.8660

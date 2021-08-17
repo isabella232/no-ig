@@ -1,0 +1,1064 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- broken links = 59, errors = 3, warn = 126, info = 10 -->
+<head>
+  <title>nobasisProfiles : Validation Results</title>
+  <link href="fhir.css" rel="stylesheet"/>
+  <style>
+    span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
+  </style>
+  <script>
+    function flip(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Reasoning') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Reasoning';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Reasoning';
+      }
+    }
+  </script>
+</head>
+<body style="margin: 20px; background-color: #ffffff">
+ <h1>Validation Results for nobasisProfiles</h1>
+ <p>Generated Wed Aug 18 00:20:56 CEST 2021, FHIR version 4.0.1 for no-basis-Profiles#0.1.0 (canonical = <a href="https://simplifier.net/guide/no-basis-entities-individuals">https://simplifier.net/guide/no-basis-entities-individuals</a> (<a href="https://simplifier.net/guide/no-basis-entities-individuals/history.html">history</a>)). See <a href="/users/jvi/downloads/hl7norwayno-basis-1/gofsh/output/qa.html">Full QA Report</a></p>
+<table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
+ <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.1.77</span></td></tr>
+ <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = no-basis-Profiles, Canonical = https://simplifier.net/guide/no-basis-entities-individuals</td></tr>
+ <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
+ <tr><td>Version Check:</td><td>0.1.0: <span stlye="color: marron; font-weight: bold">no package-list.json - the guide is not ready for publishing</span></td></tr>
+ <tr><td>Supressed Messages:</td><td>No Suppressed Issues
+</td></tr>
+ <tr><td>Dependency Checks:</td><td><div><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The NPM Package Id">Package</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of the package">Version</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of FHIR that the package is based on">FHIR Release</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Canonical URL">Canonical</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Web Reference Base">Web Base</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Comments about this entry">Comment</span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAJUlEQVR4Xu3IIQEAAAgDsHd9/w4EQIOamFnaBgAA4MMKAACAKwNp30CqZFfFmwAAAABJRU5ErkJggg==)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> no-basis-Profiles</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0.1.0</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">4.0.1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">https://simplifier.net/guide/no-basis-entities-individuals</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+</table><para>Templates: fhir.base.template#current</para></div></td></tr>
+ <tr><td>Publication Rules:</td><td>Code = n/a. n/a - not an HL7.org or FHIR.org implementation guide
+ <br/><br/>The copyrightYear parameter ('2020+') in the IG resource is good</td></tr>
+ <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at https://simplifier.net/guide/no-basis-entities-individuals (Problem #1 with package-list.json at https://simplifier.net/guide/no-basis-entities-individuals: https://simplifier.net/guide/no-basis-entities-individuals/package-list.json)</td></tr>
+ <tr><td>Summary:</td><td> broken links = 59, errors = 3, warn = 126, info = 10</td></tr>
+</table>
+ <table class="grid">
+   <tr>
+     <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>60</b></td><td><b>12</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_ImplementationGuide-no-basis-Profiles"><b>/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/ImplementationGuide-no-basis-Profiles</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_observation-GOFSH-GENERATED-ID-0"><b>/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/observation-GOFSH-GENERATED-ID-0</b></a></td><td><b>1</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_patient-GOFSH-GENERATED-ID-2"><b>/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/patient-GOFSH-GENERATED-ID-2</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_patient-GOFSH-GENERATED-ID-3"><b>/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/patient-GOFSH-GENERATED-ID-3</b></a></td><td><b>0</b></td><td><b>3</b></td><td><b>3</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_relatedperson-GOFSH-GENERATED-ID-5"><b>/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/relatedperson-GOFSH-GENERATED-ID-5</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-kommunikasjonspart-Organization"><b>/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-kommunikasjonspart-Organization</b></a></td><td><b>0</b></td><td><b>3</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-Address"><b>/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-Address</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-AllergyIntolerance"><b>/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-AllergyIntolerance</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-Composition"><b>/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-Composition</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-DocumentReference"><b>/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-DocumentReference</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-Endpoint"><b>/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-Endpoint</b></a></td><td><b>0</b></td><td><b>9</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-HealthcareService"><b>/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-HealthcareService</b></a></td><td><b>0</b></td><td><b>3</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-HumanName"><b>/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-HumanName</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-Location"><b>/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-Location</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-Medication"><b>/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-Medication</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-Organization"><b>/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-Organization</b></a></td><td><b>0</b></td><td><b>4</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-Person"><b>/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-Person</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-PractitionerRole"><b>/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-PractitionerRole</b></a></td><td><b>0</b></td><td><b>5</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-Substance"><b>/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-Substance</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-municipalitycode"><b>/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-municipalitycode</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-prescriptiongroup"><b>/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-prescriptiongroup</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-propertyinformation"><b>/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-propertyinformation</b></a></td><td><b>1</b></td><td><b>2</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-sourceofinformation"><b>/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-sourceofinformation</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-urban-district"><b>/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-no-basis-urban-district</b></a></td><td><b>0</b></td><td><b>3</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-tba-organizationcoverage"><b>/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/structuredefinition-tba-organizationcoverage</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_valueset-no-basis-documentreference-type"><b>/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/valueset-no-basis-documentreference-type</b></a></td><td><b>0</b></td><td><b>64</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_valueset-no-basis-service-type.valueset"><b>/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/valueset-no-basis-service-type.valueset</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="internal"> </a>
+<h2><a href="">n/a</a></h2>
+ <table class="grid">
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.definition.parameter[22].value</b></td><td><b>error</b></td><td title=""><b>Supressed messages file not found</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/no-basis-documentreference-type.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/no-basis-family-relation.codesystem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/no-basis-marital-status.codesystem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/no-basis-parental-responsibility.codesystem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Observation/GOFSH-GENERATED-ID-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Organization/GOFSH-GENERATED-ID-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Patient/GOFSH-GENERATED-ID-2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Patient/GOFSH-GENERATED-ID-3.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/GOFSH-GENERATED-ID-4.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource RelatedPerson/GOFSH-GENERATED-ID-5.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource RelatedPerson/GOFSH-GENERATED-ID-6.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource RelatedPerson/GOFSH-GENERATED-ID-7.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Observation-GOFSH-GENERATED-ID-0.html#650009ec-925b-4895-9374-f6e5f76a0b25">Observation-GOFSH-GENERATED-ID-0.html#/html/body/div/div/div/div/div/div/p/a at Line 157, column 332</a></b></td><td><b>error</b></td><td><b>The link 'Patient/592410' for &quot;Patient/592410&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-kommunikasjonspart-Organization-definitions.html#135c7564-874b-4546-8962-49eada8f9fcc">StructureDefinition-kommunikasjonspart-Organization-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 708, column 115</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for &quot;urn:oid:2.16.578.1.12.4.1.1.8628&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-kommunikasjonspart-Organization-definitions.html#4afd3ec9-e8db-455e-9657-079607eb4ed4">StructureDefinition-kommunikasjonspart-Organization-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 828, column 115</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for &quot;urn:oid:2.16.578.1.12.4.1.1.8624&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-kommunikasjonspart-Organization.html#3925dd79-4ed7-427a-bf0c-1374b319b0df">StructureDefinition-kommunikasjonspart-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 348, column 1908</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for &quot;urn:oid:2.16.578.1.12.4.1.1.8628&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-kommunikasjonspart-Organization.html#6ecc8f52-223e-4b0a-abf6-f281d0bbcefc">StructureDefinition-kommunikasjonspart-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 360, column 1936</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for &quot;urn:oid:2.16.578.1.12.4.1.1.8624&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-kommunikasjonspart-Organization.html#39418037-acd1-4a5f-96ba-ac68db44a59a">StructureDefinition-kommunikasjonspart-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 648, column 1908</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for &quot;urn:oid:2.16.578.1.12.4.1.1.8628&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-kommunikasjonspart-Organization.html#085f8d1d-4f75-4d6a-a07b-014d6783334e">StructureDefinition-kommunikasjonspart-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 660, column 1936</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for &quot;urn:oid:2.16.578.1.12.4.1.1.8624&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Address.html#ff63672f-16cc-46f6-9715-8e5b3b965ce2">StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 268, column 1790</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for &quot;urn:oid:2.16.578.1.12.4.1.1.3403&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Address.html#4d7a3cb4-b709-49d0-b36b-fb97890c2f58">StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 302, column 1790</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for &quot;urn:oid:2.16.578.1.12.4.1.1.3403&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Address.html#a0e1b98e-d245-4e00-8b3f-7ab9ec026f6b">StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 455, column 1790</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for &quot;urn:oid:2.16.578.1.12.4.1.1.3403&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Address.html#a2f03e67-7a27-4566-ab9c-cb4b54c45f73">StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 489, column 1790</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for &quot;urn:oid:2.16.578.1.12.4.1.1.3403&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Endpoint-definitions.html#4dacd01d-896d-4dde-86fa-3cef85eea285">StructureDefinition-no-basis-Endpoint-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 352, column 115</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for &quot;urn:oid:2.16.578.1.12.4.1.1.8279&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Endpoint-definitions.html#438a0889-c9ad-4038-869c-4f606dfe31b6">StructureDefinition-no-basis-Endpoint-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 364, column 115</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for &quot;urn:oid:2.16.578.1.12.4.1.1.0000&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Endpoint.html#26682306-79e4-4df8-b0b6-5b7ebf9886cb">StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 289, column 1056</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for &quot;urn:oid:2.16.578.1.12.4.1.1.8279&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Endpoint.html#d385104a-d43b-4a82-a308-fbb88b533059">StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 292, column 973</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for &quot;urn:oid:2.16.578.1.12.4.1.1.0000&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Endpoint.html#60fecbc0-d91e-4b46-9844-973686d11961">StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 345, column 1127</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for &quot;urn:oid:2.16.578.1.12.4.1.1.8279&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Endpoint.html#16dcfc10-6993-4913-88e6-cd7dc9aa82cf">StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 348, column 1078</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for &quot;urn:oid:2.16.578.1.12.4.1.1.0000&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Endpoint.html#7c3e9937-30a2-4d43-904f-26add0724d30">StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 510, column 1056</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for &quot;urn:oid:2.16.578.1.12.4.1.1.8279&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Endpoint.html#54b88462-72b8-4f06-b87c-6624c2e95f13">StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 513, column 973</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for &quot;urn:oid:2.16.578.1.12.4.1.1.0000&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Endpoint.html#b394879d-2d7b-4438-a380-1622a7db8b35">StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 566, column 1127</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8279' for &quot;urn:oid:2.16.578.1.12.4.1.1.8279&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Endpoint.html#491538b1-bfa4-46a4-a0b6-6fa0714c3a94">StructureDefinition-no-basis-Endpoint.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 569, column 1078</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.0000' for &quot;urn:oid:2.16.578.1.12.4.1.1.0000&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-HealthcareService-definitions.html#5750a929-ec53-43c3-be33-5ce0db382c70">StructureDefinition-no-basis-HealthcareService-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 443, column 108</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for &quot;urn:oid:2.16.578.1.12.4.1.1.9040&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-HealthcareService.html#1c8d0124-67c3-463f-91c8-2bc89608f1ba">StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 282, column 1882</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for &quot;urn:oid:2.16.578.1.12.4.1.1.9040&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-HealthcareService.html#1c79422f-6198-4d2b-a284-047bbbde588b">StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 336, column 1876</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for &quot;urn:oid:2.16.578.1.12.4.1.1.9040&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-HealthcareService.html#21583765-d005-4e89-88f5-4e7a1547f554">StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 567, column 1882</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for &quot;urn:oid:2.16.578.1.12.4.1.1.9040&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-HealthcareService.html#06028168-a749-49b3-b5a5-d50f1a017cff">StructureDefinition-no-basis-HealthcareService.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 621, column 1876</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.9040' for &quot;urn:oid:2.16.578.1.12.4.1.1.9040&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Organization-definitions.html#2bbb3ced-1692-4194-816b-bb65ebc37644">StructureDefinition-no-basis-Organization-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 521, column 115</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for &quot;urn:oid:2.16.578.1.12.4.1.1.8628&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Organization-definitions.html#d673b482-493b-4e57-a084-fa60eae2989b">StructureDefinition-no-basis-Organization-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 641, column 115</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for &quot;urn:oid:2.16.578.1.12.4.1.1.8624&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Organization.html#b6a21f14-1c2d-4919-bfcd-3fed0096d1bc">StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 295, column 1750</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for &quot;urn:oid:2.16.578.1.12.4.1.1.8628&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Organization.html#71079f2e-035d-43cd-86ae-844a5b53b3ac">StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 299, column 1778</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for &quot;urn:oid:2.16.578.1.12.4.1.1.8624&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Organization.html#cf1614bb-2360-4dd0-87fc-e9707ece9970">StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 354, column 1884</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for &quot;urn:oid:2.16.578.1.12.4.1.1.8628&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Organization.html#594fcad5-5378-4ac3-8d4a-d0fe1f762a52">StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 366, column 1912</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for &quot;urn:oid:2.16.578.1.12.4.1.1.8624&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Organization.html#e39d786f-e0c1-40f9-a620-e047f1d4e605">StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 575, column 1750</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for &quot;urn:oid:2.16.578.1.12.4.1.1.8628&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Organization.html#921e9004-d5de-4934-be29-51c0305c9ec4">StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 579, column 1778</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for &quot;urn:oid:2.16.578.1.12.4.1.1.8624&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Organization.html#74f14141-42e2-4335-993c-62dd64d2b7a5">StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 634, column 1884</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for &quot;urn:oid:2.16.578.1.12.4.1.1.8628&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-Organization.html#0c9e33bf-97d5-487d-ba35-93a06197bc9a">StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 646, column 1912</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for &quot;urn:oid:2.16.578.1.12.4.1.1.8624&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-PractitionerRole-definitions.html#54dfffc6-8948-4e45-b80a-55cdcf62abbc">StructureDefinition-no-basis-PractitionerRole-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 331, column 116</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for &quot;urn:oid:2.16.578.1.12.4.1.1.9034&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-PractitionerRole-definitions.html#6c3f0d14-b926-4a6b-9da3-f460d0e4c60a">StructureDefinition-no-basis-PractitionerRole-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 462, column 116</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for &quot;urn:oid:2.16.578.1.12.4.1.1.8451&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-PractitionerRole.html#9b6d0267-2dc8-4083-b262-bb8c061a1665">StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 284, column 975</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for &quot;urn:oid:2.16.578.1.12.4.1.1.9034&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-PractitionerRole.html#4e85b629-ecec-4f79-86bc-5d4f9080fec0">StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 291, column 1840</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for &quot;urn:oid:2.16.578.1.12.4.1.1.8451&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-PractitionerRole.html#7ec0ab29-d6ed-4110-a14e-f793033c93ef">StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 329, column 1054</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for &quot;urn:oid:2.16.578.1.12.4.1.1.9034&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-PractitionerRole.html#b900bb5f-24c8-4468-888e-e2296789cddc">StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 344, column 1931</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for &quot;urn:oid:2.16.578.1.12.4.1.1.8451&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-PractitionerRole.html#7b039fd2-6f93-47d9-84de-1bfb48e8a9db">StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 547, column 975</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for &quot;urn:oid:2.16.578.1.12.4.1.1.9034&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-PractitionerRole.html#9e37cafc-51c3-4672-82ec-5143e0d588c4">StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 554, column 1840</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for &quot;urn:oid:2.16.578.1.12.4.1.1.8451&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-PractitionerRole.html#7afd380b-2725-4d00-8a51-9d6fe5bacc21">StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 592, column 1054</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.9034' for &quot;urn:oid:2.16.578.1.12.4.1.1.9034&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-PractitionerRole.html#1226d830-5b94-4c37-a3a9-4134f62c88ce">StructureDefinition-no-basis-PractitionerRole.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 607, column 1931</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.8451' for &quot;urn:oid:2.16.578.1.12.4.1.1.8451&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-propertyinformation-definitions.html#2e03d0d0-cf52-4960-81d4-565b82f9b80d">StructureDefinition-no-basis-propertyinformation-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 396, column 115</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for &quot;urn:oid:2.16.578.1.12.4.1.1.3402&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-propertyinformation.html#cef97981-065c-4d75-8129-318396e89207">StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 272, column 1989</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for &quot;urn:oid:2.16.578.1.12.4.1.1.3402&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-propertyinformation.html#843c54d3-4ca9-4883-bd9d-88f58492a00c">StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 310, column 1901</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for &quot;urn:oid:2.16.578.1.12.4.1.1.3402&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-propertyinformation.html#b38fcc16-dfc9-42a3-838b-40c61360a276">StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 415, column 1989</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for &quot;urn:oid:2.16.578.1.12.4.1.1.3402&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-propertyinformation.html#f2c296e1-bfc1-499c-9509-e2d924a438ef">StructureDefinition-no-basis-propertyinformation.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 453, column 1901</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.3402' for &quot;urn:oid:2.16.578.1.12.4.1.1.3402&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-urban-district-definitions.html#49f5d175-041a-4845-92ea-3ae7ca703851">StructureDefinition-no-basis-urban-district-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 212, column 115</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for &quot;urn:oid:2.16.578.1.12.4.1.1.3403&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-urban-district.html#eae11e82-4947-476c-b74b-1b8fe5902121">StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 261, column 1787</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for &quot;urn:oid:2.16.578.1.12.4.1.1.3403&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-urban-district.html#d51d6ca2-8711-4f90-8a66-f13b25e73e9e">StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 274, column 1671</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for &quot;urn:oid:2.16.578.1.12.4.1.1.3403&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-urban-district.html#817160a7-df68-43e3-8c40-bcb844134c57">StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 340, column 1787</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for &quot;urn:oid:2.16.578.1.12.4.1.1.3403&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-no-basis-urban-district.html#20c112e1-6fb9-4b87-9a38-c51ec7e50894">StructureDefinition-no-basis-urban-district.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 353, column 1671</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for &quot;urn:oid:2.16.578.1.12.4.1.1.3403&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="index.html#4323b85c-0df0-4659-9d70-20a19d13a320">index.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 133, column 8</a></b></td><td><b>error</b></td><td><b>The link 'background.html' for &quot;Background&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="index.html#450cce4f-7074-45d6-8e75-96e656c8bc0a">index.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 137, column 8</a></b></td><td><b>error</b></td><td><b>The link 'spec.html' for &quot;Detailed Specification&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="index.html#1bd48895-3764-4a24-8319-432c808b77f9">index.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 140, column 8</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_ImplementationGuide-no-basis-Profiles"> </a>
+<h2><a href="ImplementationGuide-no-basis-Profiles.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/ImplementationGuide-no-basis-Profiles.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ImplementationGuide</b></td><td><b>warning</b></td><td title="ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed"><b>ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_observation-GOFSH-GENERATED-ID-0"> </a>
+<h2><a href="Observation-GOFSH-GENERATED-ID-0.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/Observation-GOFSH-GENERATED-ID-0.json</a></h2>
+ <ul style="font-size: 7px"><li>Observation: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/observation.html">Observation</a></li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation.code.coding[3] (l22/c8)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://acme.org/devices/clinical-codes' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Observation.subject (l31/c4)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource 'Patient/592410'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_patient-GOFSH-GENERATED-ID-2"> </a>
+<h2><a href="Patient-GOFSH-GENERATED-ID-2.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/Patient-GOFSH-GENERATED-ID-2.json</a></h2>
+ <ul style="font-size: 7px"><li>Patient: Validated against <i>this.</i><a href="StructureDefinition-no-basis-Patient.html">no-basis-Patient</a></li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Patient.address[0].extension[0].extension[0].value.ofType(Coding) (l58/c32)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:2.16.578.1.12.4.1.1.3402' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Patient.address[0].extension[0].extension[0].value.ofType(Coding) (l58/c32)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>ValueSet urn:oid:2.16.578.1.12.4.1.1.3402 not found by validator</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_patient-GOFSH-GENERATED-ID-3"> </a>
+<h2><a href="Patient-GOFSH-GENERATED-ID-3.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/Patient-GOFSH-GENERATED-ID-3.json</a></h2>
+ <ul style="font-size: 7px"><li>Patient: Validated against <i>this.</i><a href="StructureDefinition-no-basis-Patient.html">no-basis-Patient</a></li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b><a href="">Patient.identifier[1] (l32/c6)</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Patient</b> <span id="sl77" class="flip" onclick="flip('l77')">Show Reasoning</span><div id="l77" style="display: none"><p>&nbsp;</p>This element does not match any known slicedefined_in_the_profilehttp://hl7.no/fhir/StructureDefinition/no-basis-Patient<ul><li>Patient.identifier[1]: discriminator = true and ('urn:oid:2.16.578.1.12.4.1.4.1' in system)</li>, <li>Patient.identifier[1]: discriminator = true and ('urn:oid:2.16.578.1.12.4.1.4.3' in system)</li>, <li>Patient.identifier[1]: discriminator = true and ('urn:oid:2.16.578.1.12.4.1.4.2' in system)</li>, <li>Patient.identifier[1]: discriminator = true and ('HNR' in system)</li></ul></div></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Patient.address[0].extension[0].extension[0].value.ofType(Coding) (l62/c32)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:2.16.578.1.12.4.1.1.3402' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Patient.address[0].extension[0].extension[0].value.ofType(Coding) (l62/c32)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>ValueSet urn:oid:2.16.578.1.12.4.1.1.3402 not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Patient.address[0].district.extension[0].value.ofType(Coding) (l85/c30)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Patient.address[0].district.extension[0].value.ofType(Coding) (l85/c30)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>ValueSet https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Patient.contact[0].relationship[1] (l116/c10)</b></td><td><b>warning</b></td><td title="Terminology_TX_Code_ValueSet_Ext"><b>No code provided, and a code should be provided from the value set http://hl7.org/fhir/ValueSet/patient-contactrelationship (http://hl7.org/fhir/ValueSet/patient-contactrelationship)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_relatedperson-GOFSH-GENERATED-ID-5"> </a>
+<h2><a href="RelatedPerson-GOFSH-GENERATED-ID-5.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/RelatedPerson-GOFSH-GENERATED-ID-5.json</a></h2>
+ <ul style="font-size: 7px"><li>RelatedPerson: Validated against <i>this.</i><a href="StructureDefinition-no-basis-RelatedPerson.html">no-basis-RelatedPerson</a></li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>RelatedPerson.address[0].extension[0].extension[2].value.ofType(Coding) (l70/c32)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:oid:2.16.578.1.12.4.1.1.3402' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>RelatedPerson.address[0].extension[0].extension[2].value.ofType(Coding) (l70/c32)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>ValueSet urn:oid:2.16.578.1.12.4.1.1.3402 not found by validator</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-kommunikasjonspart-Organization"> </a>
+<h2><a href="StructureDefinition-kommunikasjonspart-Organization.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-kommunikasjonspart-Organization.json</a></h2>
+ <ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[48].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8628 on element Organization.type could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[60].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8624 on element Organization.type could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/kommunikasjonspart-Organization')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-Address"> </a>
+<h2><a href="StructureDefinition-no-basis-Address.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-Address.json</a></h2>
+ <ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Address')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this data type profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-AllergyIntolerance"> </a>
+<h2><a href="StructureDefinition-no-basis-AllergyIntolerance.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-AllergyIntolerance.json</a></h2>
+ <ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-AllergyIntolerance')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-Composition"> </a>
+<h2><a href="StructureDefinition-no-basis-Composition.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-Composition.json</a></h2>
+ <ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Composition')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-DocumentReference"> </a>
+<h2><a href="StructureDefinition-no-basis-DocumentReference.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-DocumentReference.json</a></h2>
+ <ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-DocumentReference')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-Endpoint"> </a>
+<h2><a href="StructureDefinition-no-basis-Endpoint.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-Endpoint.json</a></h2>
+ <ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>no-basis-Endpoint.Endpoint.payloadMimeType</b></td><td><b>warning</b></td><td title=""><b>Binding http://www.rfc-editor.org/bcp/bcp13.txt could not be located</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition</b></td><td><b>warning</b></td><td title=""><b>Binding http://www.rfc-editor.org/bcp/bcp13.txt could not be located</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.differential.element[5].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8279 on element Endpoint.payloadType could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.differential.element[6].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference urn:oid:2.16.578.1.12.4.1.1.0000 on element Endpoint.payloadType could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.differential.element[7].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference http://www.rfc-editor.org/bcp/bcp13.txt on element Endpoint.payloadMimeType could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[17].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8279 on element Endpoint.payloadType could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[18].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference urn:oid:2.16.578.1.12.4.1.1.0000 on element Endpoint.payloadType could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[19].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference http://www.rfc-editor.org/bcp/bcp13.txt on element Endpoint.payloadMimeType could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Endpoint')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-HealthcareService"> </a>
+<h2><a href="StructureDefinition-no-basis-HealthcareService.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-HealthcareService.json</a></h2>
+ <ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.differential.element[5].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference urn:oid:2.16.578.1.12.4.1.1.9040 on element HealthcareService.category could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[26].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference urn:oid:2.16.578.1.12.4.1.1.9040 on element HealthcareService.category could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-HealthcareService')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-HumanName"> </a>
+<h2><a href="StructureDefinition-no-basis-HumanName.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-HumanName.json</a></h2>
+ <ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-HumanName')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this data type profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-Location"> </a>
+<h2><a href="StructureDefinition-no-basis-Location.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-Location.json</a></h2>
+ <ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Location')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-Medication"> </a>
+<h2><a href="StructureDefinition-no-basis-Medication.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-Medication.json</a></h2>
+ <ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Medication')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-Organization"> </a>
+<h2><a href="StructureDefinition-no-basis-Organization.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-Organization.json</a></h2>
+ <ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.differential.element[9].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8628 on element Organization.type could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.differential.element[12].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8624 on element Organization.type could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[30].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8628 on element Organization.type could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[42].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8624 on element Organization.type could not be resolved</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-Person"> </a>
+<h2><a href="StructureDefinition-no-basis-Person.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-Person.json</a></h2>
+ <ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Person')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-PractitionerRole"> </a>
+<h2><a href="StructureDefinition-no-basis-PractitionerRole.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-PractitionerRole.json</a></h2>
+ <ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.differential.element[4].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference urn:oid:2.16.578.1.12.4.1.1.9034 on element PractitionerRole.code could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.differential.element[8].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8451 on element PractitionerRole.specialty could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[15].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference urn:oid:2.16.578.1.12.4.1.1.9034 on element PractitionerRole.code could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[28].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference urn:oid:2.16.578.1.12.4.1.1.8451 on element PractitionerRole.specialty could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-PractitionerRole')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-Substance"> </a>
+<h2><a href="StructureDefinition-no-basis-Substance.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-Substance.json</a></h2>
+ <ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Substance')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-municipalitycode"> </a>
+<h2><a href="StructureDefinition-no-basis-municipalitycode.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-municipalitycode.json</a></h2>
+ <ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.differential.element[3].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle on element Extension.value[x] could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[4].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle on element Extension.value[x] could not be resolved</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-prescriptiongroup"> </a>
+<h2><a href="StructureDefinition-no-basis-prescriptiongroup.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-prescriptiongroup.json</a></h2>
+ <ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-prescriptiongroup')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-propertyinformation"> </a>
+<h2><a href="StructureDefinition-no-basis-propertyinformation.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-propertyinformation.json</a></h2>
+ <ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.differential.element[17].binding</b></td><td><b>error</b></td><td title="Validation_VAL_Profile_Minimum"><b>ElementDefinition.binding.strength: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ElementDefinition)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.differential.element[20].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference urn:oid:2.16.578.1.12.4.1.1.3402 on element Extension.extension.value[x] could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[27].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference urn:oid:2.16.578.1.12.4.1.1.3402 on element Extension.extension.value[x] could not be resolved</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-sourceofinformation"> </a>
+<h2><a href="StructureDefinition-no-basis-sourceofinformation.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-sourceofinformation.json</a></h2>
+ <ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-sourceofinformation')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-no-basis-urban-district"> </a>
+<h2><a href="StructureDefinition-no-basis-urban-district.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-urban-district.json</a></h2>
+ <ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.differential.element[3].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference urn:oid:2.16.578.1.12.4.1.1.3403 on element Extension.value[x] could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[4].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference urn:oid:2.16.578.1.12.4.1.1.3403 on element Extension.value[x] could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-urban-district')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_structuredefinition-tba-organizationcoverage"> </a>
+<h2><a href="StructureDefinition-tba-organizationcoverage.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-tba-organizationcoverage.json</a></h2>
+ <ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/tba-organizationcoverage')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_valueset-no-basis-documentreference-type"> </a>
+<h2><a href="ValueSet-no-basis-documentreference-type.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/ValueSet-no-basis-documentreference-type.json</a></h2>
+ <ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[0]</b></td><td><b>warning</b></td><td title=""><b>The code A00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[1]</b></td><td><b>warning</b></td><td title=""><b>The code A01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[2]</b></td><td><b>warning</b></td><td title=""><b>The code A02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[3]</b></td><td><b>warning</b></td><td title=""><b>The code A03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[4]</b></td><td><b>warning</b></td><td title=""><b>The code A04-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[5]</b></td><td><b>warning</b></td><td title=""><b>The code A05-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[6]</b></td><td><b>warning</b></td><td title=""><b>The code A06-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[7]</b></td><td><b>warning</b></td><td title=""><b>The code A07-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[8]</b></td><td><b>warning</b></td><td title=""><b>The code A08-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[9]</b></td><td><b>warning</b></td><td title=""><b>The code A09-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[10]</b></td><td><b>warning</b></td><td title=""><b>The code A10-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[11]</b></td><td><b>warning</b></td><td title=""><b>The code A11-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[12]</b></td><td><b>warning</b></td><td title=""><b>The code A12-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[13]</b></td><td><b>warning</b></td><td title=""><b>The code A13-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[14]</b></td><td><b>warning</b></td><td title=""><b>The code B00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[15]</b></td><td><b>warning</b></td><td title=""><b>The code B01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[16]</b></td><td><b>warning</b></td><td title=""><b>The code B02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[17]</b></td><td><b>warning</b></td><td title=""><b>The code B03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[18]</b></td><td><b>warning</b></td><td title=""><b>The code C00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[19]</b></td><td><b>warning</b></td><td title=""><b>The code C01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[20]</b></td><td><b>warning</b></td><td title=""><b>The code C02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[21]</b></td><td><b>warning</b></td><td title=""><b>The code C03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[22]</b></td><td><b>warning</b></td><td title=""><b>The code C04-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[23]</b></td><td><b>warning</b></td><td title=""><b>The code C05-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[24]</b></td><td><b>warning</b></td><td title=""><b>The code C06-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[25]</b></td><td><b>warning</b></td><td title=""><b>The code C07-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[26]</b></td><td><b>warning</b></td><td title=""><b>The code D00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[27]</b></td><td><b>warning</b></td><td title=""><b>The code D01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[28]</b></td><td><b>warning</b></td><td title=""><b>The code D02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[29]</b></td><td><b>warning</b></td><td title=""><b>The code D03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[30]</b></td><td><b>warning</b></td><td title=""><b>The code D04-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[31]</b></td><td><b>warning</b></td><td title=""><b>The code D05-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[32]</b></td><td><b>warning</b></td><td title=""><b>The code D06-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[33]</b></td><td><b>warning</b></td><td title=""><b>The code D07-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[34]</b></td><td><b>warning</b></td><td title=""><b>The code D08-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[35]</b></td><td><b>warning</b></td><td title=""><b>The code D09-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[36]</b></td><td><b>warning</b></td><td title=""><b>The code D10-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[37]</b></td><td><b>warning</b></td><td title=""><b>The code D11-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[38]</b></td><td><b>warning</b></td><td title=""><b>The code D12-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[39]</b></td><td><b>warning</b></td><td title=""><b>The code D13-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[40]</b></td><td><b>warning</b></td><td title=""><b>The code E00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[41]</b></td><td><b>warning</b></td><td title=""><b>The code E01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[42]</b></td><td><b>warning</b></td><td title=""><b>The code F00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[43]</b></td><td><b>warning</b></td><td title=""><b>The code F01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[44]</b></td><td><b>warning</b></td><td title=""><b>The code F02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[45]</b></td><td><b>warning</b></td><td title=""><b>The code F03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[46]</b></td><td><b>warning</b></td><td title=""><b>The code F04-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[47]</b></td><td><b>warning</b></td><td title=""><b>The code F05-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[48]</b></td><td><b>warning</b></td><td title=""><b>The code F06-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[49]</b></td><td><b>warning</b></td><td title=""><b>The code F07-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[50]</b></td><td><b>warning</b></td><td title=""><b>The code F08-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[51]</b></td><td><b>warning</b></td><td title=""><b>The code F09-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[52]</b></td><td><b>warning</b></td><td title=""><b>The code F10-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[53]</b></td><td><b>warning</b></td><td title=""><b>The code I00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[54]</b></td><td><b>warning</b></td><td title=""><b>The code I01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[55]</b></td><td><b>warning</b></td><td title=""><b>The code I02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[56]</b></td><td><b>warning</b></td><td title=""><b>The code J00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[57]</b></td><td><b>warning</b></td><td title=""><b>The code J01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[58]</b></td><td><b>warning</b></td><td title=""><b>The code J02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[59]</b></td><td><b>warning</b></td><td title=""><b>The code S00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[60]</b></td><td><b>warning</b></td><td title=""><b>The code S01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[61]</b></td><td><b>warning</b></td><td title=""><b>The code S02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.compose[0].include[0].concept[62]</b></td><td><b>warning</b></td><td title=""><b>The code S03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.where(id = 'no-basis-documentreference-type')</b></td><td><b>warning</b></td><td title=""><b>Error from server: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_jvi_Downloads_hl7norwayno-basis-1_gofsh_fsh-generated_resources_valueset-no-basis-service-type.valueset"> </a>
+<h2><a href="ValueSet-no-basis-service-type.valueset.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/ValueSet-no-basis-service-type.valueset.json</a></h2>
+ <ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ValueSet.where(id = 'no-basis-service-type.valueset')</b></td><td><b>warning</b></td><td title=""><b>Error from server: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.8660</b></td>
+   </tr>
+</table>
+<a name="suppressed"> </a>
+<p><b>Suppressed Messages (Warnings, hints, broken links)</b></p>
+<p>No suppressed messsages</p><a name="sorted"> </a>
+<p><b>Errors sorted by type</b></p>
+<hr/>
+<a name="Reference_REF_CantResolve"> </a>
+<h2>Reference_REF_CantResolve</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="Observation-GOFSH-GENERATED-ID-0.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/Observation-GOFSH-GENERATED-ID-0.json</a></td><td><b>Unable to resolve resource 'Patient/592410'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Terminology_TX_Code_ValueSet_Ext"> </a>
+<h2>Terminology_TX_Code_ValueSet_Ext</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="Patient-GOFSH-GENERATED-ID-3.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/Patient-GOFSH-GENERATED-ID-3.json</a></td><td><b>No code provided, and a code should be provided from the value set http://hl7.org/fhir/ValueSet/patient-contactrelationship (http://hl7.org/fhir/ValueSet/patient-contactrelationship)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Terminology_TX_System_NotKnown"> </a>
+<h2>Terminology_TX_System_NotKnown</h2>
+ <table class="grid">
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-GOFSH-GENERATED-ID-0.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/Observation-GOFSH-GENERATED-ID-0.json</a></td><td><b>Code System URI 'http://acme.org/devices/clinical-codes' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Patient-GOFSH-GENERATED-ID-2.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/Patient-GOFSH-GENERATED-ID-2.json</a></td><td><b>Code System URI 'urn:oid:2.16.578.1.12.4.1.1.3402' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Patient-GOFSH-GENERATED-ID-3.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/Patient-GOFSH-GENERATED-ID-3.json</a></td><td><b>Code System URI 'urn:oid:2.16.578.1.12.4.1.1.3402' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Patient-GOFSH-GENERATED-ID-3.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/Patient-GOFSH-GENERATED-ID-3.json</a></td><td><b>Code System URI 'https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Practitioner-GOFSH-GENERATED-ID-4.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/Practitioner-GOFSH-GENERATED-ID-4.json</a></td><td><b>Code System URI 'urn:oid:2.16.578.1.12.4.1.1.9060' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Practitioner-GOFSH-GENERATED-ID-4.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/Practitioner-GOFSH-GENERATED-ID-4.json</a></td><td><b>Code System URI 'urn:oid:2.16.578.1.12.4.1.1.7426' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Practitioner-GOFSH-GENERATED-ID-4.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/Practitioner-GOFSH-GENERATED-ID-4.json</a></td><td><b>Code System URI 'urn:oid:2.16.578.1.12.4.1.1.7704' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Practitioner-GOFSH-GENERATED-ID-4.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/Practitioner-GOFSH-GENERATED-ID-4.json</a></td><td><b>Code System URI 'urn:oid:2.16.578.1.12.4.1.1.7426' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="RelatedPerson-GOFSH-GENERATED-ID-5.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/RelatedPerson-GOFSH-GENERATED-ID-5.json</a></td><td><b>Code System URI 'urn:oid:2.16.578.1.12.4.1.1.3402' is unknown so the code cannot be validated</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Terminology_TX_ValueSet_NotFound"> </a>
+<h2>Terminology_TX_ValueSet_NotFound</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="Patient-GOFSH-GENERATED-ID-2.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/Patient-GOFSH-GENERATED-ID-2.json</a></td><td><b>ValueSet urn:oid:2.16.578.1.12.4.1.1.3402 not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Patient-GOFSH-GENERATED-ID-3.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/Patient-GOFSH-GENERATED-ID-3.json</a></td><td><b>ValueSet urn:oid:2.16.578.1.12.4.1.1.3402 not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Patient-GOFSH-GENERATED-ID-3.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/Patient-GOFSH-GENERATED-ID-3.json</a></td><td><b>ValueSet https://register.geonorge.no/subregister/sosi-kodelister/kartverket/kommunenummer-alle not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="RelatedPerson-GOFSH-GENERATED-ID-5.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/RelatedPerson-GOFSH-GENERATED-ID-5.json</a></td><td><b>ValueSet urn:oid:2.16.578.1.12.4.1.1.3402 not found by validator</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Validation_VAL_Profile_Minimum"> </a>
+<h2>Validation_VAL_Profile_Minimum</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-no-basis-propertyinformation.html">/Users/jvi/Downloads/hl7norwayno-basis-1/gofsh/fsh-generated/resources/StructureDefinition-no-basis-propertyinformation.json</a></td><td><b>ElementDefinition.binding.strength: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ElementDefinition)</b></td>
+   </tr>
+</table>
+</body>
+</html>
